@@ -1,0 +1,40 @@
+# Root .gitignore for DevOps Intelligence (Sentinel)
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables
+.env
+**/.env
+.env*.local
+
+# Build Artifacts
+dist/
+**/dist/
+build/
+**/build/
+.next/
+**/ .next/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+**/logs/
+
+# Testing
+coverage/
+**/coverage/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+.cache/
+.parcel-cache/
+.eslintcache
